@@ -2,6 +2,7 @@ from flask import Flask, request
 from flask import render_template
 from flask import current_app as app
 from application.models import Article
+from application.utilities import *
 
 
 @app.route('/', methods=['GET', 'POST'])
